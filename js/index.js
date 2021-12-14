@@ -1,10 +1,10 @@
 define([
-    'require',
-    'localStorage',
+    'ko',
+    'VM/index'
 
-], function(require, storage) {
+], function(ko, viewModel) {
     'use strict';
-    return function name(params) {
-        
-    }
+ 
+    ko.applyBindings(new viewModel());
+
 });

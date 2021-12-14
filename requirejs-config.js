@@ -1,7 +1,7 @@
 require.config({
    baseUrl: "js",
     paths: {
-       "ko": "js/knockout",
-       "jquery": "js/jquery"
+       "ko": "knockout",
+       "jquery": "jquery"
     }
 });
